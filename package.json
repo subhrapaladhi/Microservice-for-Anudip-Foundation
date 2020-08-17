@@ -1,0 +1,36 @@
+{
+  "name": "Microservice-for-Anudip-Foundation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.0",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhrapaladhi/Microservice-for-Anudip-Foundation.git"
+  },
+  "author": "subhrapaladhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhrapaladhi/Microservice-for-Anudip-Foundation/issues"
+  },
+  "homepage": "https://github.com/subhrapaladhi/Microservice-for-Anudip-Foundation.git#readme"
+}
