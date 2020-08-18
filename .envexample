@@ -1,1 +1,2 @@
 mongoURI= Paste your MongoDB URI here.
+saltString= your salt string

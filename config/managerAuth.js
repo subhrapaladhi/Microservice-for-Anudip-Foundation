@@ -4,7 +4,7 @@ const Manager = require('../models/Manager');
 const auth = async (req, res, next) => {
     try{
         const token = req.header('Authorization').replace('Bearer ','')
-        const decoded = jwt.verify(token, 'moveFastandBreakThings')
+        const decoded = jwt.verify(token, process.env.saltString);
         const user = await Manager.findOne({_id: decoded._id, 'tokens.token': token})
 
         if(!user){
